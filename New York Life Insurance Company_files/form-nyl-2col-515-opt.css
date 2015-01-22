@@ -1,0 +1,96 @@
+/*
+Horizontal 2 Column Contact an Agent Form CSS, Width 250, Talk to Us
+(Originally for nyl.com redesign)
+New York Life
+Jun 29, 2012
+---------------------*/
+img {border:none;}
+.clear {clear:both;}
+option	{padding:0; margin:0; line-height:14px;}
+
+
+.talk-to-us .nylform_class			{width:515px; background:#f8eed7; color:#53555c; font:normal 12px/17px segoe ui, sans-serif; padding:0 0 10px 0; margin:0; border:none;}
+.talk-to-us #contact_form .nylform_desc,
+.talk-to-us .nylform_class label		{}
+.talk-to-us .nylform_class .nylform_field 	{border:none; background:none;}
+.talk-to-us .nylform_class strong		{}
+.talk-to-us .nylform_class p 			{padding:0 8px 8px 8px; margin:0;}
+.talk-to-us .nylform_class p a 			{color:#007ac2;}
+
+.talk-to-us .nylform_class h2			{font:bold 17px/19px nylic-effra-n7, nylic-effra, segoe ui, sans-serif; background:#dca728; padding:15px 20px; margin:0; width:auto; color:#fff;}
+
+.talk-to-us .nylform_landing_text  		{display:none;}
+.talk-to-us .nylform_landing_text p		{margin:15px 20px 0; padding:0; position:relative;}
+
+
+.talk-to-us #contact_form 			{list-style:none; margin:15px 0 0; padding:0 0 0 20px; font-size:11px; position:relative; width:495px;}
+.talk-to-us #contact_form li 			{padding:0 15px 3px 0; margin:0; text-align:left; position:relative; width:230px; list-style:none; display:block; float: left; clear: none; height: auto; right: auto;}
+
+.talk-to-us #contact_form .nylform_desc		{width:230px; padding:0; text-align: left; float: none; display:block;}
+.talk-to-us #contact_form .nylform_input 	{width:230px; height:24px; display:block;}
+.talk-to-us #contact_form .nylform_desc_fine 	{text-align:left; width:60px; padding:2px 0 0 0; margin:0 0 0 5px; color:#f70; font:normal 10px/14px trebuchet ms, sans-serif;}
+
+.talk-to-us #contact_form .nylform_desc span 	{color:#f30; position:static;}
+
+.talk-to-us #contact_form input[type=text],
+.talk-to-us #contact_form input[type=tel],
+.talk-to-us #contact_form input[type=email],
+.talk-to-us #contact_form select		{width:220px; height:20px; padding:0px 4px; margin:0 0 3px;} 
+.talk-to-us #contact_form select 		{overflow:visible; width:230px; height:22px; padding:0;}
+
+.talk-to-us #contact_form #nylform_li_sendbtn 	{width:230px; position:static; height:45px;}
+.talk-to-us #contact_form #nylform_li_sendbtn button	{margin:10px 0 0; position: absolute; right: 20px;}
+
+.talk-to-us #contact_form #nylform_li_required 	{display:block; margin: 0; text-align: right; clear: both; float: none; height: 5px; position:static;}
+.talk-to-us #contact_form #nylform_li_required p 	{color:#f30; font:normal 10px/14px segoe ui, sans-serif; position:absolute; right:256px; top:0px; margin:0; }
+
+.talk-to-us #contact_form #nylform_li_why		{position:absolute; top:16px; right:30px; z-index:10; width:30px; font-size:10px;}
+.talk-to-us #contact_form #nylform_li_why abbr	{margin:0; padding:0; color:#66a5be; border-bottom:1px dotted #66a5be; cursor:help; line-height:13px; overflow:visible;}
+
+.talk-to-us #contact_form #nylform_li_clickonce	{display:none;}
+.talk-to-us #contact_form #nylform_li_clickonce p	{color:#978981; font:normal 10px/11px segoe ui, sans-serif; padding:2px 20px 0 0;}
+
+
+.talk-to-us #contact_form #nylform_li_seals		{position:absolute; top:-70px; right:10px; padding:0;}
+
+.talk-to-us #contact_form #nylform_li_gift 			{text-align:left;}
+.talk-to-us #contact_form #nylform_li_gift .nylform_desc	{position:relative; display:block; width:auto; text-indent:16px; padding:0; margin-top:4px;}
+.talk-to-us #contact_form #nylform_li_gift .nylform_input input	{position:absolute; top:3px; left:0; margin:0;}
+
+.hidden 				{position:absolute; color:#fff; width:1px; height:1px; overflow:hidden;}
+
+.talk-to-us #contact_form #nylform_li_homework,
+.talk-to-us #contact_form #nylform_li_timetocall,
+.talk-to-us #contact_form #nylform_li_seals		{display:none;}
+
+
+/* Mobile Optimization */
+
+@media only screen and (max-width:979px) {
+
+.talk-to-us .nylform_class				{width:100%; background:none;}
+.talk-to-us #contact_form .nylform_desc,
+.talk-to-us .nylform_class label 			{font:bold 11px/12px segoe ui, microsoft zhenghei, sans-serif;}
+.talk-to-us #contact_form			{margin:0; width:auto; padding:5px 10px; background:#f8eed7;}
+.talk-to-us #contact_form li 			{width:100%; text-align:left; padding:0;}  
+.talk-to-us #contact_form .nylform_desc,
+.talk-to-us #contact_form .nylform_input		{display:block; width:100%; float:none;}
+.talk-to-us #contact_form .nylform_desc span	{position:static;}
+.talk-to-us #contact_form input[type=text],
+.talk-to-us #contact_form input[type=tel],
+.talk-to-us #contact_form input[type=email] ,
+.talk-to-us #contact_form select,
+.talk-to-us #contact_form #nylform_li_quote,
+.talk-to-us #contact_form #nylform_li_quote .nylform_desc	{width:100%; box-sizing:border-box; font: normal 13px/18px segoe ui, sans-serif;}
+
+.talk-to-us #contact_form #nylform_li_required p	{right:2px; top:2px;}
+.talk-to-us #contact_form #nylform_li_why		{top:0; right:15px;}
+
+.talk-to-us #contact_form #nylform_li_homework			{height:20px;}
+.talk-to-us #contact_form #nylform_li_homework .nylform_desc,
+.talk-to-us #contact_form #nylform_li_homework .nylform_input 	{display:inline;}
+
+.talk-to-us #contact_form #nylform_li_sendbtn		{height:30px;}
+.talk-to-us #contact_form #nylform_li_sendbtn button	{margin:5px 0; right:10px; padding:2px 15px;}
+
+} 
